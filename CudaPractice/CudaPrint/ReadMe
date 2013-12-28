@@ -1,0 +1,15 @@
+GPU Print Testing Program
+
+This program invokes your GPU to print to STDOUT
+
+Type make to create the exec file
+make will use nvcc to compile.
+Please make sure you have nvcc installed (nvcc --version)
+
+In the hw.cu (cuda file) the number of threads executing depends on declaration of the cuda function (in this case 'gpu_greeting'). Note that all cuda funcitons have a return type __global__ (instructed by the nvcc compiler as a function running on the GPU)
+
+Recall that this only works on computers with an NVIDIA GPU
+For more information regarding compatibility please visit:
+https://developer.nvidia.com/cuda-gpus
+
+

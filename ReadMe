@@ -1,0 +1,8 @@
+CUDA Programming for NVIDIA enabled GPU (https://developer.nvidia.com/cuda-gpus)
+
+Cuda is a very powerful, low level, C-like, programming language to interface with your GPU via the kernel. More information on installing cuda based on your operating system is found at:
+https://developer.nvidia.com/cuda-downloads
+
+Please find several different cuda programs in the 'CudaPractice' folder
+
+I enjoy diving into the power of GPU's due to their extremely fast GFLOPs operating performance via multithreading for fast devices.

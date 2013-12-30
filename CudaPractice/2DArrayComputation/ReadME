@@ -1,0 +1,3 @@
+This program does computation to fill in a 2D array on the GPU.
+It then copies the GPU array onto the CPU to display the data.
+

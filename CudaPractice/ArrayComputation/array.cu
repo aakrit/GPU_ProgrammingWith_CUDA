@@ -4,6 +4,7 @@
 
 extern int j = 0;
 
+//global function run on gpu's and must return void
 __global__ void kernel(int *array, int j){
   int index = blockIdx.x * blockDim.x + threadIdx.x;
   array[index] = j;
